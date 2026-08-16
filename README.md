@@ -1,4 +1,6 @@
 # Spusic
+Group project created for Web programming class in 2023.
+
 ## About
 This is an interactive web-based music guessing game that uses the Spotify API to create a challenge from a public Spotify playlist. Players enter a playlist URL, and the application retrieves songs with available audio previews. The game then plays a short preview of a randomly selected song and presents four possible song titles for the player to choose from.
 
