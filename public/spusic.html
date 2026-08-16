@@ -1,0 +1,77 @@
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="popup.css">
+    <!-- This will make it mobile friendly -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Spusic where you can test your song knowledge and compete with other players to get the highscore!">
+    <title>Song Quiz</title>
+</head>
+
+
+
+<!-- Button to trigger the pop-up -->
+<body>
+
+    <!-- The pop-up container -->
+<!--     <div id="popup-container" class="popup">
+      <div class="popup-content">
+        <form>
+            <h2>Subscribe to our game</h2>
+            <input type="password" placeholder="Card Number" required>
+            <br></br>
+            <input type="name" placeholder="Card Holder Name" required>
+            <br></br>
+            <input type="name" placeholder="Exp.date" required>
+            <br></br>
+            <input type="submit" value="submit" onclick="closePopup()">
+        </form>
+      </div>
+    </div> -->
+    
+    <img src="spusic.jpg" alt="Logo" id="logo">
+    <div id="start">
+        <label>Hi, welcome to Spusic! Please enter a public playlist or just click start!</label>
+        <input type="text" id="playlist"></br>
+        <button class="play">
+            Start game
+        </button>
+    </div>
+
+    <div id="leaderboard"></div>
+
+    <div class="tracks" id="tracks" hidden="true">
+        <button class="track" data-spotify-id=""></button>
+        <button class="track" data-spotify-id=""></button>
+        <button class="track" data-spotify-id=""></button>
+        <button class="track" data-spotify-id=""></button>
+        <p id="score">Score: 0</p>
+    </div>
+    <div hidden="true">
+    </div>
+    <div id="game_end" hidden="true">
+        <h1>Game over!</h1>
+        <p id="end_score">Score: </p>
+        <button class="play">
+            Play again
+        </button>
+        <button id="back_to_start">
+            Back to start
+        </button>
+    </div>
+    <script src="/index.js"></script> <!-- Make sure to start with a slash (/) -->
+<!--     <script>
+    // Function to open the pop-up
+    function openPopup() {
+    document.getElementById('popup-container').style.display = 'block';
+    }
+
+    // Function to close the pop-up
+    function closePopup() {
+    document.getElementById('popup-container').style.display = 'none';
+    }
+    </script> -->
+</body>
+
+</html>
