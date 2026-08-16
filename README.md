@@ -9,4 +9,4 @@ Players earn points by correctly identifying songs, with each round timed to inc
 The project combines HTML, CSS, JavaScript, the Spotify Web API, and MongoDB for the backend to provide features such as playlist integration, audio playback, score tracking, user login, and a leaderboard.
 
 ## Reference
-This is a clone of my [group project](https://github.com/OilyOogway/spusic). with a README added.
+This is a clone of my [group project](https://github.com/OilyOogway/spusic) with a README added.
