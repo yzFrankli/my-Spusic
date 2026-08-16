@@ -2,6 +2,17 @@
   "name": "spusic-app",
   "version": "1.0.0",
   "description": "A music trivia app using Spotify API",
+  "homepage": "https://github.com/yzFrankli/my-Spusic#readme",
+  "bugs": {
+    "url": "https://github.com/yzFrankli/my-Spusic/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yzFrankli/my-Spusic.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "serreg.js",
   "scripts": {
     "start": "node serreg.js"
@@ -14,5 +25,6 @@
     "http": "0.0.1-security",
     "url": "^0.11.0",
     "mongodb": "^4.0.0"
-  }
+  },
+  "devDependencies": {}
 }
